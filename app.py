@@ -30,6 +30,7 @@ def send_email(recipient, name, reg_no, sender_email, sender_password, logo_file
     </body>
     </html>
     """
+    
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
